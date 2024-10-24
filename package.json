@@ -1,0 +1,31 @@
+{
+  "name": "lynx-watcher",
+  "version": "1.0.3",
+  "description": "cache clearing for Magento2 FE",
+  "main": "index.js",
+  "bin": {
+    "lynx-watcher": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "magento2",
+    "cache",
+    "cache-clear",
+    "frontend",
+    "watcher",
+    "file-watcher",
+    "automation"
+  ],
+  "author": "masutha_arnold",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chokidar": "^3.6.0",
+    "figlet": "^1.8.0",
+    "yargs": "^17.7.2"
+  }
+}
